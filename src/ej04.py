@@ -1,6 +1,6 @@
 
-temp = int(input("Dame  una temperatura en Celsius "))
+cel = int(input("Dame los grados en Celsius: "))
 
-result = ((temp*9)/5) + 32 
+temp = (cel * 9 / 5) + 32 
 
-print("La temperatura en Farenheit es:", result)
+print ("Aqui esta la temperatura en Farenheit: ", temp)
