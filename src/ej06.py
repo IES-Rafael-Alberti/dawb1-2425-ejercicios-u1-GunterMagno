@@ -1,7 +1,6 @@
-final = int(input("Dame el precio de un articulo con IVA "))
+precio = int(input("Dame el precio de un articulo con IVA: "))
 
-noiva = (final * 1.10) / 10
+siniva = precio * 1.1
+iva = 
 
-impiva = final - noiva
-
-print("El importe sin IVA del articulo es: ",noiva,"y el IVA pagado es: ",impiva)
+print("El importe sin IVA del articulo es: ",,"y el IVA pagado es: ",)
