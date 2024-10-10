@@ -10,7 +10,7 @@ def comprobrar_float(valor: str) -> bool:
 
     pos_punto = valor.find(".")
     if pos_punto >= 0:
-        valor = valor[:pos_punto] + valor[:pos_punto + 1:]
+        valor = valor[:pos_punto] + valor[pos_punto + 1:]
 
     return valor.isdigit()
 
